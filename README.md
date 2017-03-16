@@ -19,7 +19,6 @@ Create migrations
 
     $ php artisan bank-statements:accounts-table
     $ php artisan bank-statements:table
-    $ php artisan migrate
     
 Do migration
 
