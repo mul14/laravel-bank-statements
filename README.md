@@ -3,6 +3,8 @@ Laravel package to collect your bank statements history. Currently support for p
 
 **BNI** e-banking website is also supported, but I'm not provide the class in this package. Additional open-source libraries/softwares is required inside the server to help solving the captcha, also additional process in your main app are required. **No additional third-party service payment** required.
 
+**Read and make sure you understand everything first before submiting your questions. Create a issue if you found a bug.
+
 ## Requirements
 Check the [composer.json](https://github.com/feelinc/laravel-bank-statements/blob/master/composer.json) file
     
