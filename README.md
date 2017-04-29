@@ -116,7 +116,7 @@ The whole collected statements history will be saved into a table, you can colle
 
 Each statement data will be having a unique ID when stored in table, to make sure does not re-created. Regarding **BCA** statement data, the date will be updated if found in your next collecting process. You can find the data used to create the unique ID in each collector class.
 
-Don't login to e-banking websites manually if you going to use the collector process. All e-banking websites does not allow multiple login attempt.
+Don't login to e-banking websites manually at the same time with the collector process. All e-banking websites does not allow multiple login attempt.
 
 Make sure the user ID and password provided are correct, because all e-banking websites will block your account if failed three times. If you failed twice, do a success login manually first, then try again the collector process.
 
