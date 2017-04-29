@@ -153,8 +153,13 @@ To modify the configuration file, the default config file need to be published f
     $ php artisan vendor:publish --provider="Sule\BankStatements\Provider\LaravelServiceProvider"
 
 ## Contributing
+### How to add your own bank collector (scrapper)
+- Copy a existing collector class inside "**/src/Collector/Web**" folder for your reference.
+- Check "**\Sule\BankStatements\Collector\WebInterface**" for all methods required.
+- Insert your new collector class into "**/config/config.php**" file.
+- Test your new collector.
 
-Contributions to the Laravel Bank Statements library are welcome. Please note the following guidelines before submiting your pull request.
+Contributions to the Laravel Bank Statements library are very welcome. Please note the following guidelines before submiting your pull request.
 
 - Follow [PSR-2](http://www.php-fig.org/psr/psr-2/) coding standards.
 - Write tests for new functions and added features
